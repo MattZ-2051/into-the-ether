@@ -46,7 +46,11 @@ contract MultiSignatureWallet {
     }
   }
 
-  function () payable external {
+  fallback() external payable {
+    emit Deposit(msg.sender, msg.value, address(this).balance);
+  }
+
+  receive() external payable {
     emit Deposit(msg.sender, msg.value, address(this).balance);
   }
 
@@ -66,7 +70,7 @@ contract MultiSignatureWallet {
   }
 
   modifier notExecuted(uint _txIndex) {
-    require(!transactions[_txIndex].isConfirmed[executed], "tx already executed");
+    require(!transactions[_txIndex].executed, "tx already executed");
     _;
   }
 
@@ -103,12 +107,13 @@ contract MultiSignatureWallet {
     require(transaction.numConfirmations >= numberConfirmationsRequired, "cannot execute tx");
     transaction.executed = true;
 
-    (bool success, ) = transaction.to.call.value(transaction.value)(transaction.data);
+
+    (bool success, ) = transaction.to.call{value: transaction.value}(transaction.data);
     require(success, "tx failed");
 
     emit ExecuteTransaction(msg.sender, _txIndex);
 
   }
 
-  function revokeConfirmation() {}
+  // function revokeConfirmation() {}
 }
