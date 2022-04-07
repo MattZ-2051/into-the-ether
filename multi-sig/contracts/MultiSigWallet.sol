@@ -79,6 +79,17 @@ contract MultiSignatureWallet {
     _;
   }
 
+  function getTransaction(uint _txIndex) public view returns (address to, uint value, bytes memory data, bool executed, uint numConfirmations) {
+    Transaction storage transaction = transactions[_txIndex];
+    return (
+      transaction.to,
+      transaction.value,
+      transaction.data,
+      transaction.executed,
+      transaction.numConfirmations
+    );
+  }
+
   function submitTransaction(address _to, uint _value, bytes memory _data) public onlyOwner {
     uint txIndex = transactions.length;
 

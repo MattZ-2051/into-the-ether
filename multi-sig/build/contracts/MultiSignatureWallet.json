@@ -12312,9 +12312,7 @@
   "ast": {
     "absolutePath": "project:/contracts/MultiSigWallet.sol",
     "exportedSymbols": {
-      "MultiSignatureWallet": [
-        440
-      ]
+      "MultiSignatureWallet": [440]
     },
     "id": 441,
     "license": "UNLICENSED",
@@ -12322,12 +12320,7 @@
     "nodes": [
       {
         "id": 34,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "39:23:1"
       },
@@ -12339,9 +12332,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 440,
-        "linearizedBaseContracts": [
-          440
-        ],
+        "linearizedBaseContracts": [440],
         "name": "MultiSignatureWallet",
         "nameLocation": "73:20:1",
         "nodeType": "ContractDefinition",
@@ -13275,10 +13266,7 @@
                       "id": 108,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "928:7:1",
                       "typeDescriptions": {
@@ -13459,10 +13447,7 @@
                       "id": 116,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "980:7:1",
                       "typeDescriptions": {
@@ -13496,9 +13481,7 @@
                     "src": "1158:204:1",
                     "statements": [
                       {
-                        "assignments": [
-                          140
-                        ],
+                        "assignments": [140],
                         "declarations": [
                           {
                             "constant": false,
@@ -13694,10 +13677,7 @@
                             "id": 145,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [
-                              4294967278,
-                              4294967278
-                            ],
+                            "overloadedDeclarations": [4294967278, 4294967278],
                             "referencedDeclaration": 4294967278,
                             "src": "1201:7:1",
                             "typeDescriptions": {
@@ -13810,10 +13790,7 @@
                             "id": 155,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [
-                              4294967278,
-                              4294967278
-                            ],
+                            "overloadedDeclarations": [4294967278, 4294967278],
                             "referencedDeclaration": 4294967278,
                             "src": "1254:7:1",
                             "typeDescriptions": {
@@ -14039,9 +14016,7 @@
                   },
                   "id": 176,
                   "initializationExpression": {
-                    "assignments": [
-                      129
-                    ],
+                    "assignments": [129],
                     "declarations": [
                       {
                         "constant": false,
@@ -14922,10 +14897,7 @@
                       "id": 228,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1759:7:1",
                       "typeDescriptions": {
@@ -15069,10 +15041,7 @@
                       "id": 242,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1863:7:1",
                       "typeDescriptions": {
@@ -15255,10 +15224,7 @@
                       "id": 256,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1981:7:1",
                       "typeDescriptions": {
@@ -15480,10 +15446,7 @@
                       "id": 271,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "2104:7:1",
                       "typeDescriptions": {
@@ -15566,9 +15529,7 @@
               "src": "2290:239:1",
               "statements": [
                 {
-                  "assignments": [
-                    297
-                  ],
+                  "assignments": [297],
                   "declarations": [
                     {
                       "constant": false,
@@ -15629,9 +15590,7 @@
                   "src": "2296:34:1"
                 },
                 {
-                  "assignments": [
-                    303
-                  ],
+                  "assignments": [303],
                   "declarations": [
                     {
                       "constant": false,
@@ -16153,9 +16112,7 @@
               "src": "2657:208:1",
               "statements": [
                 {
-                  "assignments": [
-                    354
-                  ],
+                  "assignments": [354],
                   "declarations": [
                     {
                       "constant": false,
@@ -16637,9 +16594,7 @@
               "src": "2970:375:1",
               "statements": [
                 {
-                  "assignments": [
-                    396
-                  ],
+                  "assignments": [396],
                   "declarations": [
                     {
                       "constant": false,
@@ -16808,10 +16763,7 @@
                       "id": 401,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "3040:7:1",
                       "typeDescriptions": {
@@ -16901,10 +16853,7 @@
                   "src": "3135:27:1"
                 },
                 {
-                  "assignments": [
-                    416,
-                    null
-                  ],
+                  "assignments": [416, null],
                   "declarations": [
                     {
                       "constant": false,
@@ -17025,9 +16974,7 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "names": [
-                        "value"
-                      ],
+                      "names": ["value"],
                       "nodeType": "FunctionCallOptions",
                       "options": [
                         {
@@ -17128,10 +17075,7 @@
                       "id": 427,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "3258:7:1",
                       "typeDescriptions": {
@@ -17376,9 +17320,7 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/MultiSigWallet.sol",
     "exportedSymbols": {
-      "MultiSignatureWallet": [
-        440
-      ]
+      "MultiSignatureWallet": [440]
     },
     "id": 441,
     "license": "UNLICENSED",
@@ -17386,12 +17328,7 @@
     "nodes": [
       {
         "id": 34,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "39:23:1"
       },
@@ -17403,9 +17340,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 440,
-        "linearizedBaseContracts": [
-          440
-        ],
+        "linearizedBaseContracts": [440],
         "name": "MultiSignatureWallet",
         "nameLocation": "73:20:1",
         "nodeType": "ContractDefinition",
@@ -18339,10 +18274,7 @@
                       "id": 108,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "928:7:1",
                       "typeDescriptions": {
@@ -18523,10 +18455,7 @@
                       "id": 116,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "980:7:1",
                       "typeDescriptions": {
@@ -18560,9 +18489,7 @@
                     "src": "1158:204:1",
                     "statements": [
                       {
-                        "assignments": [
-                          140
-                        ],
+                        "assignments": [140],
                         "declarations": [
                           {
                             "constant": false,
@@ -18758,10 +18685,7 @@
                             "id": 145,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [
-                              4294967278,
-                              4294967278
-                            ],
+                            "overloadedDeclarations": [4294967278, 4294967278],
                             "referencedDeclaration": 4294967278,
                             "src": "1201:7:1",
                             "typeDescriptions": {
@@ -18874,10 +18798,7 @@
                             "id": 155,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [
-                              4294967278,
-                              4294967278
-                            ],
+                            "overloadedDeclarations": [4294967278, 4294967278],
                             "referencedDeclaration": 4294967278,
                             "src": "1254:7:1",
                             "typeDescriptions": {
@@ -19103,9 +19024,7 @@
                   },
                   "id": 176,
                   "initializationExpression": {
-                    "assignments": [
-                      129
-                    ],
+                    "assignments": [129],
                     "declarations": [
                       {
                         "constant": false,
@@ -19986,10 +19905,7 @@
                       "id": 228,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1759:7:1",
                       "typeDescriptions": {
@@ -20133,10 +20049,7 @@
                       "id": 242,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1863:7:1",
                       "typeDescriptions": {
@@ -20319,10 +20232,7 @@
                       "id": 256,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1981:7:1",
                       "typeDescriptions": {
@@ -20544,10 +20454,7 @@
                       "id": 271,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "2104:7:1",
                       "typeDescriptions": {
@@ -20630,9 +20537,7 @@
               "src": "2290:239:1",
               "statements": [
                 {
-                  "assignments": [
-                    297
-                  ],
+                  "assignments": [297],
                   "declarations": [
                     {
                       "constant": false,
@@ -20693,9 +20598,7 @@
                   "src": "2296:34:1"
                 },
                 {
-                  "assignments": [
-                    303
-                  ],
+                  "assignments": [303],
                   "declarations": [
                     {
                       "constant": false,
@@ -21217,9 +21120,7 @@
               "src": "2657:208:1",
               "statements": [
                 {
-                  "assignments": [
-                    354
-                  ],
+                  "assignments": [354],
                   "declarations": [
                     {
                       "constant": false,
@@ -21701,9 +21602,7 @@
               "src": "2970:375:1",
               "statements": [
                 {
-                  "assignments": [
-                    396
-                  ],
+                  "assignments": [396],
                   "declarations": [
                     {
                       "constant": false,
@@ -21872,10 +21771,7 @@
                       "id": 401,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "3040:7:1",
                       "typeDescriptions": {
@@ -21965,10 +21861,7 @@
                   "src": "3135:27:1"
                 },
                 {
-                  "assignments": [
-                    416,
-                    null
-                  ],
+                  "assignments": [416, null],
                   "declarations": [
                     {
                       "constant": false,
@@ -22089,9 +21982,7 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "names": [
-                        "value"
-                      ],
+                      "names": ["value"],
                       "nodeType": "FunctionCallOptions",
                       "options": [
                         {
@@ -22192,10 +22083,7 @@
                       "id": 427,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "3258:7:1",
                       "typeDescriptions": {

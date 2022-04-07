@@ -11,9 +11,12 @@
     "chai-as-promised": "^7.1.1",
     "truffle": "^5.5.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "2.6.2"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "format": "npx prettier --write ."
   },
   "keywords": [],
   "author": "",
