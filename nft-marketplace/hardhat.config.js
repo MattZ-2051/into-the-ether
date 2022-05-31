@@ -22,9 +22,10 @@ module.exports = {
       chainId: 1337,
     },
     mumbai: {
-      url: "key",
+      url: process.env.ALCHEMY_URL,
       accounts: [],
     },
+    mainnet: {},
   },
   solidity: "0.8.4",
 };
