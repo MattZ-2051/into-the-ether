@@ -22,10 +22,9 @@ module.exports = {
       chainId: 1337,
     },
     mumbai: {
-      url: process.env.ALCHEMY_URL,
+      url: "https://polygon-mumbai.g.alchemy.com/v2/wxC6w2vNWo66E2oFR-Jb6yl4l2btthTg",
       accounts: [],
     },
-    mainnet: {},
   },
   solidity: "0.8.4",
 };
