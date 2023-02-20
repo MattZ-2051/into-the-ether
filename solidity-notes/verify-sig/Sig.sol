@@ -15,32 +15,43 @@ contract Sig {
         return true;
     }
 
-    function getMessageHash(
-        string memory _message
-    ) public pure returns (bytes32) {
+    function getMessageHash(string memory _message)
+        public
+        pure
+        returns (bytes32)
+    {
         return keccak256(abi.encodePacked(_message));
     }
 
-    function getSignedMessageHash(
-        string memory _message
-    ) public pure returns (bytes) {
+    function getSignedMessageHash(string memory _message)
+        public
+        pure
+        returns (bytes)
+    {
         return
             keccak256(
                 abi.encodePacked("\x19Ethereum Signed Message:\n32", _message)
             );
     }
 
-    function recover(
-        bytes32 _signedMessageHash,
-        bytes memory _sig
-    ) public pure returns (address) {
+    function recover(bytes32 _signedMessageHash, bytes memory _sig)
+        public
+        pure
+        returns (address)
+    {
         (bytes32 r, bytes32 s, uint8 v) = _split(_sig);
         return ecrecover(_signedMessageHash, v, r, s);
     }
 
-    function _split(
-        bytes memory _sig
-    ) internal pure returns (bytes32 r, bytes32 s, uint8 v) {
+    function _split(bytes memory _sig)
+        internal
+        pure
+        returns (
+            bytes32 r,
+            bytes32 s,
+            uint8 v
+        )
+    {
         require(_sig.length == 65, "invalid signature length");
 
         assembly {
